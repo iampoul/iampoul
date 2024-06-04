@@ -13,5 +13,5 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 -->
-⚡ Fun fact: I'm here to write code.
+⚡ Fun fact: I'm here to read code.
 
