@@ -1,6 +1,7 @@
-### Hi there 👋
+## ![plot](./pouldev.svg)
 
 <!--
+### Hi there 👋
 **iampoul/iampoul** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
@@ -12,6 +13,6 @@ Here are some ideas to get you started:
 - 💬 Ask me about ...
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
--->
 ⚡ Fun fact: I'm here to read code.
+-->
 
