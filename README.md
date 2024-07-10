@@ -1,4 +1,4 @@
-## ![plot](./pouldev.svg)
+## ![plot](./pouldevdark.svg)
 
 <!--
 ### Hi there 👋
