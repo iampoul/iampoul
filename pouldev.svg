@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 60">
+  <defs>
+    <filter id="neon-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <g filter="url(#neon-glow)">
+    <text x="5" y="45" font-family="sans-serif" font-size="40" font-weight="bold" fill="#ff00de">poul</text>
+    <text id="dot" x="110" y="45" font-family="sans-serif" font-size="40" font-weight="bold" fill="none" stroke="#ff00de" stroke-width="2">(dot)
+      <animate attributeName="opacity"
+               values="0.99;0.99;0.4;0.99;0.99;0.4;0.99;0.4;0.99"
+               dur="4s"
+               repeatCount="indefinite"
+               keyTimes="0;0.2;0.22;0.63;0.64;0.65;0.7;0.71;1" />
+    </text>
+    <text x="205" y="45" font-family="sans-serif" font-size="40" font-weight="bold" fill="#ff00de">dev</text>
+  </g>
+</svg>
