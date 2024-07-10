@@ -3,7 +3,7 @@
     <filter id="neon-glow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur1" />
       <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur2" />
-      <feGaussianBlur in="SourceGraphic" stdDeviation="30" result="blur3" />
+      <feGaussianBlur in="SourceGraphic" stdDeviation="15" result="blur3" />
       <feMerge>
         <feMergeNode in="blur1" />
         <feMergeNode in="blur2" />
