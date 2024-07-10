@@ -3,7 +3,7 @@
     <filter id="neon-glow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur1" />
       <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur2" />
-      <feGaussianBlur in="SourceGraphic" stdDeviation="50" result="blur3" />
+      <feGaussianBlur in="SourceGraphic" stdDeviation="30" result="blur3" />
       <feMerge>
         <feMergeNode in="blur1" />
         <feMergeNode in="blur2" />
@@ -13,18 +13,16 @@
     </filter>
   </defs>
   
-  <!-- Background rectangle -->
-  <rect width="100%" height="100%" fill="#22272e" />
   
   <g filter="url(#neon-glow)" transform="translate(145,0)">
-    <text x="20" y="150" font-family="Arial, cursive" font-size="130" font-weight="400" fill="#FFD5FF" stroke="#FFD5FF" stroke-width="1" letter-spacing="8">poul</text>
-    <text id="dot" x="300" y="150" font-family="Arial, cursive" font-size="130" font-weight="400" fill="#FFD5FF" stroke="#FFD5FF" stroke-width="1" letter-spacing="8">(dot)
+    <text x="20" y="140" font-family="Arial, cursive" font-size="130" font-weight="400" fill="#FFD5FF" stroke="#FFD5FF" stroke-width="1" letter-spacing="8">poul</text>
+    <text id="dot" x="300" y="140" font-family="Arial, cursive" font-size="130" font-weight="400" fill="#FFD5FF" stroke="#FFD5FF" stroke-width="1" letter-spacing="8">(dot)
       <animate attributeName="opacity"
                values="0.99;0.99;0.4;0.99;0.99;0.4;0.99;0.4;0.99"
                dur="4s"
                repeatCount="indefinite"
                keyTimes="0;0.2;0.22;0.63;0.64;0.65;0.7;0.71;1" />
     </text>
-    <text x="610" y="150" font-family="Arial, cursive" font-size="130" font-weight="400" fill="#FFD5FF" stroke="#FFD5FF" stroke-width="1" letter-spacing="8">dev</text>
+    <text x="610" y="140" font-family="Arial, cursive" font-size="130" font-weight="400" fill="#FFD5FF" stroke="#FFD5FF" stroke-width="1" letter-spacing="8">dev</text>
   </g>
 </svg>
